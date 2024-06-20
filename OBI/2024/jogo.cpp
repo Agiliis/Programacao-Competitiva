@@ -10,18 +10,6 @@ vector<vector<int> > matriz(MAXN, vector<int>(MAXN));
 int xDir[] = {1, 0, -1, 0, 1, -1, 1, -1};
 int yDir[] = {0, 1, 0, -1, 1, -1, -1, 1};
 
-int cntViz(int i, int j){
-    int viz = 0;
-
-    for(int k=0; k<8; k++){
-        int i2 = i+xDir[k], j2 = j+yDir[k];
-
-        if(matriz[i2][j2]) viz++;
-    }
-
-    return viz;
-}
-
 void jogo(){
     auto aux = matriz;
 
