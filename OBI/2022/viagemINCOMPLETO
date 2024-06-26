@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+#define llong long long
+using namespace std;
+
+const llong MAXN = 1e4+10, INF = LLONG_MAX;
+
+struct ilha{
+    int tempo;
+    int preco;
+    int pos;
+};
+
+bool mark[MAXN];
+vector<llong> dist(MAXN,INF);
+
+void dijkstra(int i1, int i2){
+    dist[i1] = 0;
+    
+    priority_queue<ilha, vector<ilha>, greater<ilha> > fila;
+    
+    fila.push({0,0,i1});
+    
+    while(!fila.empty()){
+        
+    }
+}
+
+int main()
+{
+    int ans = 0;
+    int v,n,m; cin>>v>>n>>m;
+    vector<vector<ilha> > mapa;
+    
+    for(int i=0; i<m; i++){
+        int i1, i2, t, p; cin>>i1>>i2>>t>>p;
+        
+        mapa[i1].push_back({t,p,i2});
+        mapa[i2].push_back({t,p,i1});
+    }
+    
+    int i1, i2; cin>>i1>>i2;
+    
+    dijkstra(i1, i2);
+    ans = dist[i2];
+    
+    cout<<ans<<"\n";
+    
+    return 0;
+}
