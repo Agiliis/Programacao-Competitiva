@@ -1,4 +1,11 @@
+#arquivos de build
 *.o
 *.exe
+
+#respostas erradas
+*TLE.cpp
+*WA.cpp
+
+#pastas do vscode
 .vscode/
 .cph/
