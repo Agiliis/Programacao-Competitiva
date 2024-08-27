@@ -12,6 +12,7 @@
 - [USACO (USA Computing Olympiad)](https://usaco.org/) </br>(principal olimpíada de programação dos Estados Unidos, aberta para participação geral)
 
 ### Locais para consulta e estudo:
+- [Templates](./Templates/) </br>Pequena base de algoritmos
 - [Neps Academy](https://neps.academy/br)
 - [NOIC - Roteiro de estudos da OBI](https://noic.com.br/materiais-informatica/roteiro-de-estudos/)
 - [USACO Guide](https://usaco.guide/)
