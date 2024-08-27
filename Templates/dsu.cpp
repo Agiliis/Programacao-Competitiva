@@ -18,7 +18,7 @@ void join(int x, int y){
 	if(peso[x] < peso[y]) pai[x] = y; 
 	if(peso[x] > peso[y]) pai[y] = x;
 	if(peso[x] == peso[y]){
-    pai[x] = y;
-    peso[y]++;
+	    pai[x] = y;
+	    peso[y]++;
 	}
 }
