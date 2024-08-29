@@ -49,3 +49,17 @@ int query(int node, int tl, int tr, int l, int r){
 
     return query(2*node+1, tl, mid, l, r)+query(2*node+2, mid+1, tr, l, r);
 }
+
+int main(){
+    int n; 
+    cin>>n;
+
+    for(int i=0; i<n; i++) cin>>vet[i];
+
+    build(0, 0, n-1);
+
+    int x = 1;
+    while(x<n) x*=2;
+
+    for(int i=0; i<2*x-1; i++) cout<<tree[i]<<" "; cout<<"\n";
+}
