@@ -17,9 +17,7 @@ int mdc(int a, int b){
 int main(){_
 
     int a, b;
-
     cin>>a>>b;
-
     cout<<mdc(a,b)<<"\n";
 
     return 0;

@@ -1,5 +1,5 @@
-#include <cstdio>
-#define MAXN 1e5+10
+#include <bits/stdc++.h>
+#define MAXN 1e5LL
 
 int n, k, pai[MAXN], peso[MAXN];
 
