@@ -5,9 +5,12 @@
 #respostas erradas
 *TLE.cpp
 *WA.cpp
+*RE.cpp
 *INCOMPLETO.cpp
 
-#pastas do vscode
+#pastas
 .vscode/
 .cph/
-.*/Stress/
+*Stress/
+*Testes/
+res/

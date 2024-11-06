@@ -37,7 +37,11 @@ int main(){_
         int pos, k; cin>>pos>>k;
         bitset<MAXLOG+1> passos = k;
         
-        for(int i=MAXLOG; i>=0; i--){
+        dbg(passos)
+
+        for(int i=0; i<=MAXLOG; i++){
+            dbg(i)
+            dbg(passos[i])
             if(!passos[i]) continue;
 
             pos = nxt[i][pos];
